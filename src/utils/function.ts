@@ -10,7 +10,7 @@ export const execFunction = async (
   try {
     data = await f(...args);
   } catch (err) {
-    error = err;
+    console.log(err)
   }
 
   return { data, error };
