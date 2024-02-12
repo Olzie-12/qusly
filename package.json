@@ -1,6 +1,6 @@
 {
   "name": "@olzie-12/qusly-core",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "description": "Powerful multi-protocol library for file transfer.",
   "keywords": [
     "ftp",
@@ -63,8 +63,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@types/ssh2": "0.5.43",
     "basic-ftp": "4.6.1",
-    "@olzie-12/ssh2": "0.8.10"
+    "@olzie-12/ssh2": "0.8.32"
   }
 }

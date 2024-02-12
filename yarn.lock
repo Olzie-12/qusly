@@ -193,21 +193,21 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@olzie-12/ssh2-streams@~0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.10.tgz#8569cad623ef3c6d5cca95ef4f678cc4846f4a9c"
-  integrity sha512-nvjT+3VKAtGF+u6smiwPxlBYZdg61YfTLXTLHcCmgjv6w7OwjJGYMCFmGlQV9ShmmToec1mUHbmmzVRblpMkOA==
+"@olzie-12/ssh2-streams@~0.4.11":
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.11.tgz#3848dc0e19f09d693f1ce410cf0a15e72b358a11"
+  integrity sha512-IW/EGdJ8EuYrcQjvyo77M+SSUItrx2yMP9wKo1yX5MG7Q1nM9S3y0ONvBkAqGs1+TaDREifGP1D74G70PpVrBQ==
   dependencies:
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-"@olzie-12/ssh2@0.8.10":
-  version "0.8.10"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.10.tgz#6038fffad08a4814106b675038ee3d8cabe6929e"
-  integrity sha512-KPeO8rsLrdWLVKuqptcNzOaCA284mAlVkVHwtKnYD5a7vVj/U0Eg0zJ4UMPs/JEJvE8ecAXsjb18YcNYDVg2pA==
+"@olzie-12/ssh2@0.8.32":
+  version "0.8.32"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.32.tgz#3a054b0fb6ce291bb1f2f5857d18d6e2238f1b45"
+  integrity sha512-Grux9WbH2GqWiyZPddo8x+uM+xCqkeMEy49dctuwdC8VOrXnKHoR6VVd3RClqFulo/vRblfWuVoPmuU7tr8HCQ==
   dependencies:
-    "@olzie-12/ssh2-streams" "~0.4.10"
+    "@olzie-12/ssh2-streams" "~0.4.11"
 
 "@sinonjs/commons@^1", "@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0", "@sinonjs/commons@^1.7.2":
   version "1.8.0"
@@ -309,21 +309,6 @@
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-6.0.1.tgz#681df970358c82836b42f989188d133e218c458e"
   integrity sha512-yYezQwGWty8ziyYLdZjwxyMb0CZR49h8JALHGrxjQHWlqGgc8kLdHEgWrgL0uZ29DMvEVBDnHU2Wg36zKSIUtA==
-
-"@types/ssh2-streams@*":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@types/ssh2-streams/-/ssh2-streams-0.1.7.tgz#bf79349ec85a4dfb5b3fd9f4a05af729121f07e6"
-  integrity sha512-cQNV72C+BOG7G8WNGarTQdB2Ii37cJlWatSpx5zTYxtI2ZvUt2lbq6Nc2XZ4kbge28V7Xe5KYYr82d96/rDMnQ==
-  dependencies:
-    "@types/node" "*"
-
-"@types/ssh2@0.5.43":
-  version "0.5.43"
-  resolved "https://registry.yarnpkg.com/@types/ssh2/-/ssh2-0.5.43.tgz#a4b8fc0288ef79a0d2d89363644d0b4448fe9532"
-  integrity sha512-rVEwm6fEmy9RJg1nTK3qhCKoviKtLg+axE1RXzAWuKz3QuZIZDxCKP38/tzhxkQ8I8FDVXgRoWtvltzQKtDaBg==
-  dependencies:
-    "@types/node" "*"
-    "@types/ssh2-streams" "*"
 
 "@typescript-eslint/eslint-plugin@^3.4.0":
   version "3.5.0"

@@ -1,8 +1,8 @@
 import { Writable, Readable } from 'stream';
 import { promisify } from 'util';
 import { Socket } from 'net';
-import { Client, SFTPWrapper, ClientChannel } from 'ssh2';
-import { Stats, FileEntry } from 'ssh2-streams';
+import { Client, SFTPWrapper, ClientChannel } from '@olzie-12/ssh2';
+import { Stats, FileEntry } from '@olzie-12/ssh2-streams';
 import { FileInfo, parseList } from 'basic-ftp';
 
 import { Strategy } from './strategy';
