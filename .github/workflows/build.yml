@@ -23,6 +23,6 @@ jobs:
         run: yarn build
       - name: Run the tests
         run: yarn coverage
-      - run: yarn npm publish --access public
+      - run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
