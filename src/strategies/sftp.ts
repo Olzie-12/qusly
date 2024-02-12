@@ -86,8 +86,6 @@ export class SftpStrategy extends Strategy {
         username: this.config.user,
         readyTimeout: this.options?.timeout,
       });
-    }).catch((err) => {
-      console.log(err);
     })
   };
 
