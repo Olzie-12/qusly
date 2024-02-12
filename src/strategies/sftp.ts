@@ -86,7 +86,9 @@ export class SftpStrategy extends Strategy {
         username: this.config.user,
         readyTimeout: this.options?.timeout,
       });
-    });
+    }).catch((err) => {
+      console.log(err);
+    })
   };
 
   protected onKeyboardInteractive = (
@@ -266,9 +268,7 @@ export class SftpStrategy extends Strategy {
       if (!fn) return resolve(null);
 
       fn.bind(this.wrapper)(...args, (err, ...data) => {
-        if (err) {
-            console.log(err)
-        }
+        if (err) return reject(err);
         resolve(...data);
       });
     });
@@ -306,3 +306,4 @@ export class SftpStrategy extends Strategy {
     );
   };
 }
+

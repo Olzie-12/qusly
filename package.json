@@ -1,6 +1,6 @@
 {
   "name": "@olzie-12/qusly-core",
-  "version": "4.0.5",
+  "version": "4.0.6",
   "description": "Powerful multi-protocol library for file transfer.",
   "keywords": [
     "ftp",
