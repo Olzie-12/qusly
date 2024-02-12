@@ -1,5 +1,5 @@
 {
-  "name": "qusly-core",
+  "name": "@olzie-12/qusly-core",
   "version": "4.0.4",
   "description": "Powerful multi-protocol library for file transfer.",
   "keywords": [
@@ -12,10 +12,7 @@
     "qusly",
     "qusly-core"
   ],
-  "author": {
-    "name": "Mikołaj Palkiewicz",
-    "email": "xnerhu@gmail.com"
-  },
+  "author": "Olzie",
   "license": "MIT",
   "repository": {
     "type": "git",
