@@ -75,7 +75,7 @@ Certain protocols such as `ftp` don\'t support handling many request at the same
 
 What if you want to use many connections to speed up transfering files?
 
-That's where we come in. This library supports it all thanks to the powerful [task manager](https://github.com/qusly/qusly-core/blob/master/src/tasks.ts).
+That's where we come in. This library supports it all thanks to the powerful [task manager](https://github.com/olzie-12/qusly-core/blob/master/src/tasks.ts).
 
 <a name="connectionPool"></a>
 
