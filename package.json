@@ -19,9 +19,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xnerhu/qusly-core.git"
+    "url": "git+https://github.com/olzie-12/qusly-core.git"
   },
-  "homepage": "https://github.com/xnerhu/qusly-core#readme",
+  "homepage": "https://github.com/olzie-12/qusly-core#readme",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
