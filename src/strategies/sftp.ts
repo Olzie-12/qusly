@@ -266,7 +266,9 @@ export class SftpStrategy extends Strategy {
       if (!fn) return resolve(null);
 
       fn.bind(this.wrapper)(...args, (err, ...data) => {
-        if (err) return reject(err);
+        if (err) {
+            console.log(err)
+        }
         resolve(...data);
       });
     });
