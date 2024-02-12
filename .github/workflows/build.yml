@@ -13,7 +13,16 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm run build
-      - run: npm publish --access public
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        env:
+          ADBLOCK: true
+      - name: Get commit message
+        run: echo "::set-output name=message::$(git log --no-merges -1 --oneline)"
+      - name: Build the app
+        run: yarn build
+      - name: Run the tests
+        run: yarn coverage
+      - run: yarn npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
