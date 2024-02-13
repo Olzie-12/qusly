@@ -86,7 +86,7 @@ export class SftpStrategy extends Strategy {
         username: this.config.user,
         readyTimeout: this.options?.timeout,
       });
-    })
+    });
   };
 
   protected onKeyboardInteractive = (
@@ -304,4 +304,3 @@ export class SftpStrategy extends Strategy {
     );
   };
 }
-
