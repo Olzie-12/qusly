@@ -342,22 +342,22 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@olzie-12/ssh2-streams@~0.4.34":
-  version "0.4.34"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.34.tgz#dc26df5cfd0b127bc0c60d9595d9e08210a343a0"
-  integrity sha512-UCGltD77qlYC8b2ynx40m6PHTh5CCcdrxygn3dxqPOuuUu7r24MVJ8oWxLtG+YOP84R0gGqLx3WKuNKm6bmNlA==
+"@olzie-12/ssh2-streams@~0.4.35":
+  version "0.4.35"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.35.tgz#573ec2fbb56ee13e1c979beb86f7d1b2030a0622"
+  integrity sha512-83ORaVWvw0kJJVJeFtDNIkuzdNF94YLUSmHxW+uOv/IVbnjzJBd+vcu34vrij0bLCjMt+yEZ6jFcii9t5sEXaw==
   dependencies:
     "@types/node" "^18.11.18"
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-"@olzie-12/ssh2@0.8.53":
-  version "0.8.53"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.53.tgz#4bd1f8a1b1591e2f92c0c3010749cbf98d066153"
-  integrity sha512-ThT3OIHREGQlT/tp4HGxJUpe9TlTr8G93pkpjKVRY5Gypk2L+CFCIIGtws7TzWqe2DmCGH98kqydd6BDyGc9KA==
+"@olzie-12/ssh2@0.8.54":
+  version "0.8.54"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.54.tgz#074b1e1687e29097706c4cf878392c23a5087a48"
+  integrity sha512-6YqqKByDUAKUAD8nrVKvhltGhO5qIENej1M6/+eX5PK8DNpaFxx4+Pt5LAjvRsAX+d3pFNMzq24DQryBKz+v/A==
   dependencies:
-    "@olzie-12/ssh2-streams" "~0.4.34"
+    "@olzie-12/ssh2-streams" "~0.4.35"
     "@types/node" "^18.11.18"
 
 "@pkgjs/parseargs@^0.11.0":
@@ -4305,6 +4305,7 @@ string_decoder@~1.1.1:
     safe-buffer "~5.1.0"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
