@@ -58,9 +58,9 @@
     "typedoc": "^0.17.8",
     "typedoc-plugin-extras": "^1.1.4",
     "typescript": "^5.3.3",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.0"
   },
   "dependencies": {
     "basic-ftp": "4.6.1",
