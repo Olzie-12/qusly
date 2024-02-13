@@ -64,6 +64,6 @@
   },
   "dependencies": {
     "basic-ftp": "4.6.1",
-    "@olzie-12/ssh2": "0.8.41"
+    "@olzie-12/ssh2": "0.8.42"
   }
 }
