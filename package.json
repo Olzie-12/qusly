@@ -53,7 +53,7 @@
     "nyc": "^15.1.0",
     "rimraf": "^3.0.2",
     "sinon": "^9.0.2",
-    "ts-loader": "^7.0.5",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "typedoc": "^0.17.8",
     "typedoc-plugin-extras": "^1.1.4",
