@@ -193,22 +193,22 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@olzie-12/ssh2-streams@~0.4.20":
-  version "0.4.20"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.20.tgz#6790a5262b7f4c92fb3126508a4d653b62a6b278"
-  integrity sha512-1/pAh+r7kqGeCEr8z7oUj3rXPmDtbsrcAtf0OX4EL2kdBXWPYmqYkAwYsbUBVtxIcn/HRPk9KzVz5t6wnDnhPg==
+"@olzie-12/ssh2-streams@~0.4.21":
+  version "0.4.21"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.21.tgz#2d733793fd8a13dc2b21b4c9d01fae49a9791aec"
+  integrity sha512-TbFfRuxTd66/n3G2bmBIkKQQyPwT1lXNDqgwaC0uLdFdZEzaogHvVLkF2yL7Ui2vaiLlu933eJmplWeuaRUpMA==
   dependencies:
     "@types/node" "^18.11.18"
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-"@olzie-12/ssh2@0.8.40":
-  version "0.8.40"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.40.tgz#db3ae339f7d15c3fa52cfc611287dc80523f7137"
-  integrity sha512-BzdbQ9Q1WDqtKhNtxsx9SnlBVfG3k8zBlKXTvqkpYmb6TflShVaLHHSQRoSIXdvHyOYfSFCsYK9S33EAnaaX0Q==
+"@olzie-12/ssh2@0.8.41":
+  version "0.8.41"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.41.tgz#342bbb1022f152b613d745e8a1d3abad54f3e7f4"
+  integrity sha512-MBZwy5QrOT3g/x/Jbz/s80gqm18x0/fz4Hw/j+nzlbPoxCjJ4WUV9wtNogUBoFHRM6Or4dMN4wyiJGCrs0mqlg==
   dependencies:
-    "@olzie-12/ssh2-streams" "~0.4.20"
+    "@olzie-12/ssh2-streams" "~0.4.21"
     "@types/node" "^18.11.18"
 
 "@sinonjs/commons@^1", "@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0", "@sinonjs/commons@^1.7.2":
