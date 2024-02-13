@@ -342,22 +342,22 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@olzie-12/ssh2-streams@~0.4.38":
-  version "0.4.38"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.38.tgz#d3fe9fa0978f08a3d10298e6c31d8d48d4a4527c"
-  integrity sha512-64S4l6dkTymCa4hUz5w1kfln66xT2WwzsdR3XG104GnEgMJAJbqhFQOjEmYDnReVp8Vc8XgTkACgEqe2YPYfqw==
+"@olzie-12/ssh2-streams@~0.4.39":
+  version "0.4.39"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.39.tgz#46d6f314c01562346e60b1af10a0d5b2893da3de"
+  integrity sha512-mxYGPICNhUTeNa3qmlBGVmuNPM3V6wHyV9pVfutl7Jt5ijlrgkZav+wy8pzvCUShVp5Uh/9cuJRn8QyoDMMQWw==
   dependencies:
     "@types/node" "^18.11.18"
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-"@olzie-12/ssh2@0.8.57":
-  version "0.8.57"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.57.tgz#9ce013e42510c8013fb1790aa8d0fc8feeb37de9"
-  integrity sha512-v9nbugOvcl1Fcw3s30yNjj0VC8Kp8uYxJl7HmNHNpkLI483wDbF4iQdihnIZ4bExSLj035KKGQwoFvr+zPlXcg==
+"@olzie-12/ssh2@0.8.58":
+  version "0.8.58"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.58.tgz#211be79e7389b446aec73f91760735810ca1d6bd"
+  integrity sha512-b3j72GU1LplL/9NwUdFZQkDuYmPOrmKP9iMv+0TVgxKHJT/Rjx7gzzCDVfDRz8XdI/VSiob07y1lh49dSnTXeg==
   dependencies:
-    "@olzie-12/ssh2-streams" "~0.4.38"
+    "@olzie-12/ssh2-streams" "~0.4.39"
     "@types/node" "^18.11.18"
 
 "@pkgjs/parseargs@^0.11.0":
