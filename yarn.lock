@@ -193,22 +193,22 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@olzie-12/ssh2-streams@~0.4.33":
-  version "0.4.33"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.33.tgz#9f1ee3f4ea9c07f3184e429d47fa346b34ff9d9d"
-  integrity sha512-Jo2KtRcZ9p0YEsXvZ1HzNiAO3gExcUTkC2ihxscKHdqR9oxCB4inxHHrQDReClmZ7ozSqgzVMDGBWs6V2ZuvLA==
+"@olzie-12/ssh2-streams@~0.4.34":
+  version "0.4.34"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2-streams/-/ssh2-streams-0.4.34.tgz#dc26df5cfd0b127bc0c60d9595d9e08210a343a0"
+  integrity sha512-UCGltD77qlYC8b2ynx40m6PHTh5CCcdrxygn3dxqPOuuUu7r24MVJ8oWxLtG+YOP84R0gGqLx3WKuNKm6bmNlA==
   dependencies:
     "@types/node" "^18.11.18"
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-"@olzie-12/ssh2@0.8.52":
-  version "0.8.52"
-  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.52.tgz#fa4b4cbe44dd1845de15bda038ed57c03998133a"
-  integrity sha512-PAD+YDfEwLpdngTbz/SFtUrkWafasU1zKHhx8rTyaq0vfmu/+nKl95vyaeBtGz2p1fug9FYacWapEGfxO1i4tg==
+"@olzie-12/ssh2@0.8.53":
+  version "0.8.53"
+  resolved "https://registry.yarnpkg.com/@olzie-12/ssh2/-/ssh2-0.8.53.tgz#4bd1f8a1b1591e2f92c0c3010749cbf98d066153"
+  integrity sha512-ThT3OIHREGQlT/tp4HGxJUpe9TlTr8G93pkpjKVRY5Gypk2L+CFCIIGtws7TzWqe2DmCGH98kqydd6BDyGc9KA==
   dependencies:
-    "@olzie-12/ssh2-streams" "~0.4.33"
+    "@olzie-12/ssh2-streams" "~0.4.34"
     "@types/node" "^18.11.18"
 
 "@sinonjs/commons@^1", "@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0", "@sinonjs/commons@^1.7.2":
@@ -290,12 +290,12 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-7.0.2.tgz#b17f16cf933597e10d6d78eae3251e692ce8b0ce"
   integrity sha512-ZvO2tAcjmMi8V/5Z3JsyofMe3hasRcaw88cto5etSVMwVQfeivGAlEYmaQgceUSVYFofVjT+ioHsATjdWcFt1w==
 
-"@types/node@*", "@types/node@14.0.14":
+"@types/node@*":
   version "14.0.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
   integrity sha512-syUgf67ZQpaJj01/tRTknkMNoBBLWJOBODF0Zm4NrXmiSuxjymFrxnTu1QVYRubhVkRcZLYZG8STTwJRdVm/WQ==
 
-"@types/node@^18.11.18":
+"@types/node@^18.11.18", "@types/node@^18.11.9":
   version "18.19.15"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.15.tgz#313a9d75435669a57fc28dc8694e7f4c4319f419"
   integrity sha512-AMZ2UWx+woHNfM11PyAEQmfSxi05jm9OlkxczuHeEqmvwPkYj6MWv44gbzDPefYOLysTOFyI3ziiy2ONmUZfpA==
@@ -5823,10 +5823,10 @@ typedoc@^0.17.8:
     shelljs "^0.8.4"
     typedoc-default-themes "^0.10.2"
 
-typescript@3.9.5:
-  version "3.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
-  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
+typescript@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
 uglify-js@^3.1.4:
   version "3.10.0"
